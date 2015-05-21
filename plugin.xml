@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
 	xmlns:android="http://schemas.android.com/apk/res/android"
-	id="org.apache.cordova.plugin.ActivityIndicator"
+	id="org.apache.cordova.plugin.ActivityIndicator-imbxl"
 	version="1.0.0">
 
 	<engines>
@@ -10,7 +10,7 @@
 
 	<name>Activity Indicator</name>
 	<description>Activity Indicator plugin for Cordova 3.X that allows you to show a loading spinner in your Cordova's app.</description>
-	<author>Rafael Agostini</author>
+	<author>Bianchi Bruno</author>
 	<keywords>activity,indicator,loading,spinner</keywords>
 	<license>Apache 2.0 License</license>
 
@@ -35,7 +35,7 @@
 	<platform name="android">
 		<config-file target="res/xml/config.xml" parent="/*">
 			<feature name="ActivityIndicator" >
-				<param name="android-package" value="org.apache.cordova.plugin.ActivityIndicator"/>
+				<param name="android-package" value="org.apache.cordova.plugin.ActivityIndicato-imbxlr"/>
 			</feature>
 		</config-file>
 		<source-file src="src/android/ActivityIndicator.java" target-dir="src/org/apache/cordova/plugin" />
